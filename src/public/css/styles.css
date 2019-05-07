@@ -1,0 +1,32 @@
+body {
+  background-color: #f5f6f5;
+  font-family: 'Oswald', sans-serif;
+  overflow: hidden;
+}
+
+.index {
+  height: 100vh;
+  width: 100vw;
+}
+
+.masthead {
+  background: url('/images/background.jpg') rgba(0, 0, 0, 0.5) center / cover no-repeat scroll;
+  color: #ffffff;
+  height: 100%;
+  min-height: 30rem;
+  padding-top: 8rem;
+  width: 100%;
+}
+
+.masthead h1 {
+  font-size: 4rem;
+  margin: 0;
+  padding: 0;
+  text-shadow: 1px 1px 15px #000000;
+}
+
+@media screen and (min-width: 992px) {
+  .masthead h1 {
+    font-size: 5.5rem;
+  }
+}
